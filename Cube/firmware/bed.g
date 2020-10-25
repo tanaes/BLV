@@ -28,4 +28,4 @@ G28
 M401 P1								; Deploy probe
 G29									; Probe the bed and save height map to file
 M402 P1								; Retract probe
-M291 P"Leveling finished !" R"Probing.." S1 T2
+M291 P"Leveling finished !" R"Finished" S1 T2
