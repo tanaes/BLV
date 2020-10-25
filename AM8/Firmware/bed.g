@@ -10,5 +10,5 @@ G91								; Set to relative position
 G28								; home all axis
 M557 X70:280 Y30:250 P4			; Define mesh grid
 G29								; Probe the bed and save height map to file
-M291 P"Probing mesh grid process finished !" R"Probing.." S1 T2
+M291 P"Probing mesh grid process finished !" R"Finished" S1 T2
 M374 							; Save calibration data. Default is sys/heightmap.csv
