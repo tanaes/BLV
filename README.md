@@ -1,5 +1,5 @@
 # BLV
-I will only update my configuration files for the latest released versions. I won't do it for the beta versions because they change too frequent.
+I will only update my configuration files for the latest released versions. I won't do it for the beta versions because they change too frequent. If you find any issues PM me on facebook
 
 If upgrading from Duet RRF2 you need to update to RRF3.0.0 before going to the latest released version. After updating to RRF3.0.0 you can go to RRF3.#.#. 
 https://duet3d.dozuki.com/Wiki/Installing_and_Updating_Firmware#Section_Upgrading_a_Duet_WiFi_Ethernet_Maestro_from_firmware_2_x_to_3_01_or_later
@@ -21,3 +21,8 @@ https://duet3d.dozuki.com/
 https://forum.duet3d.com/
 https://www.blvprojects.com/
 
+# Notice
+My printers are both highly customized with non-standard bed sizes. Be prepared to make changes in the firmware 
+M208 in config.g 
+G1 X### Y### in homeall.g and homex.g-This is where it says to probe the bed after homing X and Y.
+M557 X##:## Y##:## in bed.g
