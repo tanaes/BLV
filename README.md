@@ -5,7 +5,9 @@ Make sure your M208 in config.g is configured correctly for max and min.
 
 # Firmware versions:
 AM8 Duet 2 Wifi RRF 3.1.1.
+
 Cube Duet 2 RRF 3.1.1.
+
 Cube Duet 3 RRF 3.1.1.
 
 If upgrading from Duet RRF2 you need to update to RRF3.0.0 before going to the latest released version. After updating to RRF3.0.0 you can go to RRF3.#.#. 
